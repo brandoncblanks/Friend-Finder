@@ -4,7 +4,7 @@ const friendData = require("../data/frienddata");
 
 module.exports = function(app) {
  
-  app.get("/api/friend", function(req, res) {
+  app.get("/api/survey", function(req, res) {
     res.json(friendData);
   });
 
